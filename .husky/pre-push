@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+circleci local execute --job test
+# circleci build --job android
+# circleci build --job ios
